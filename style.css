@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    margin-top: 4px;
+   background:#8338ec;  
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: rgb(248, 239, 239);  text-align: center;
+}
+.container{
+    height: 70vh;
+ 
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn{
+height: 60vh;
+width:  60vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+
+}
+.game{
+    margin-top: 100px;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    transform: scale(1.1);
+    color: #3a86ff;
+    background-color: #fff;
+}
+.box:hover{
+transform: rotate(360deg);
+}
+.moving{
+    background-color: #9F70FD;
+     border-radius: 10px;
+     height: 10vh;
+}
+.moving h1{
+    color: rgba(255, 255, 255, 0.738);
+        font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-weight: bolder;
+animation: slide 2s infinite;
+ transform: scale(1);
+transition: transform .3s ease-in-out;
+cursor: pointer;
+}
+.moving h1:hover{
+    transform: scale(1.1);
+}
+#reset-btn{
+    margin-top: 50px;
+    padding: 1rem;
+    background-color: #5f5ff6;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#reset-btn:hover{
+    transform: scale(1.1);
+}
+#new-btn{
+    margin-top: 50px;
+    padding: 1rem;
+    background-color: #5f5ff6;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#new-btn:hover{
+    transform: scale(1.1);
+}
+
+.win{
+    color: #ff9b85;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.win-container{
+    height: 60vw;
+    
+}
+.hide{
+    display: none;
+}
+.win-container video{
+    height: 25vw;
+    width: 25vw;
+}
+#new-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    height: 5vw;
+    width: 10vw;
+}
