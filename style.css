@@ -109,3 +109,7 @@ cursor: pointer;
     height: 5vw;
     width: 10vw;
 }
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
